@@ -47,3 +47,33 @@ To run this project locally:
    ```bash
    git clone https://github.com/yourusername/CliSense.git
    cd CliSense
+
+   Install dependencies
+bashCopynpm install
+
+Create a .env file in the root directory and add your API keys
+CopyREACT_APP_OPENWEATHER_API_KEY=your_openweather_api_key
+
+Start the development server
+bashCopynpm start
+
+Open your browser and navigate to http://localhost:3000
+
+Project Structure
+CopyCliSense/
+├── public/          # Public assets and HTML template
+├── src/             # Source code
+│   ├── assets/      # Images and static resources
+│   ├── components/  # Reusable UI components
+│   ├── contexts/    # React contexts for state management
+│   ├── data/        # Mock data and constants
+│   ├── hooks/       # Custom React hooks
+│   ├── pages/       # Page components
+│   ├── services/    # API and service functions
+│   ├── styles/      # CSS and styling files
+│   ├── utils/       # Utility functions
+│   ├── App.js       # Main App component
+│   └── index.js     # Entry point
+└── package.json     # Dependencies and scripts
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
